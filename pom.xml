@@ -62,6 +62,15 @@
 </dependencies>
 
 
+	    <!-- H2 Database (for deployment/demo) -->
+    <dependency>
+        <groupId>com.h2database</groupId>
+        <artifactId>h2</artifactId>
+        <scope>runtime</scope>
+    </dependency>
+
+
+
 	<build>
 		<plugins>
 			<plugin>
